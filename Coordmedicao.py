@@ -10,6 +10,7 @@ import random
 import plotly.express as px
 from folium import plugins
 import zipfile
+import openpyxl
 
 # Configuração da página
 st.set_page_config(
