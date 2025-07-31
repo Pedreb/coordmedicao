@@ -2,21 +2,14 @@ import streamlit as st
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
-import re
 import io
 import numpy as np
 from geopy.distance import geodesic
 from datetime import datetime, timedelta
 import random
-import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import plotly.express as px
-from functools import lru_cache
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 from folium import plugins
 import zipfile
-import xml.etree.ElementTree as ET
 
 # Configuração da página
 st.set_page_config(
