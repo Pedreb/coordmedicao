@@ -137,7 +137,7 @@ st.markdown("""
 <div class="main-header">
     <h1 class="main-title">⚡ REZENDE ENERGIA</h1>
     <p class="main-subtitle">🗺️ MAPEADOR DE COORDENADAS PROFISSIONAL</p>
-    <p style="font-size: 0.9rem; margin-top: 1rem;">Importe uma planilha com coordenadas nas colunas BA (latitude) e BB (longitude)</p>
+    <p style="font-size: 0.9rem; margin-top: 1rem;">Importe uma planilha com coordenadas</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -684,3 +684,4 @@ st.markdown("""
     <p style="margin: 0; opacity: 0.8;">Desenvolvido com tecnologia Streamlit & Folium | Versão Empresarial 2024</p>
 </div>
 """, unsafe_allow_html=True)
+
